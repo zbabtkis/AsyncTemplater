@@ -1,0 +1,26 @@
+{
+  "name": "AsyncTemplater",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zigzackattack/AsyncTemplater.git"
+  },
+  "author": "Zachary Babtkis",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "7d41e1e06c9d4aae252bf9d346cb4fc1ec38e693",
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1",
+    "grunt": "~0.4.2",
+    "grunt-mocha": "~0.4.10"
+  }
+}

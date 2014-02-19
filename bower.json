@@ -1,0 +1,14 @@
+{
+  "name": "AsyncTemplater",
+  "version": "0.0.0",
+  "main": "script.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}
