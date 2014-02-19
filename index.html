@@ -8,18 +8,26 @@
 
   <body>
     <div id="component"></div>
-    <script type="text/hellr" id="test">
+    <script type="template/Asyncr" id="test">
         <h1>@title</h1>
-        <ul>
-            #each items
-                <li>@title</li>
-            /each
-        </ul>
-        #with profile
-        <label>Name: </label><name>@name</name> <label>Age: </label><age>@age</age>
-        /with
+		<div id='interests'>
+			<h2>Interests</h2>
+			<ul> 
+				#each interests
+					<li>@title</li>
+				/each
+			</ul>
+		</div>
+		<div id='profile'>
+			<h2>Overview</h2>
+			#with profile
+				<label>Name: </label><name>@name</name>
+				<label>Age: </label><age>@age</age>
+			/with
+		</div>
     </script>
     <script src="script.js"></script>
+	<script src="example.js"></script>
   </body>
 
 </html>
