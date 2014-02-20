@@ -7,10 +7,18 @@ module.exports = function(grunt) {
 					run: true
 				}
 			}
+		},
+
+		watch: {
+			all: {
+				files: ['lib/*', 'test/spec/*'],
+				tasks: ['mocha']
+			}
 		}
 	});
 
 	grunt.loadNpmTasks('grunt-mocha');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.registerTask('test', ['mocha']);
 };
